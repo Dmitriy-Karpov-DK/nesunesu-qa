@@ -11,4 +11,10 @@ class LocatorMainPages:
     FIELD_INPUT_CONFIRMATION_CODE_2 = (By.CSS_SELECTOR, "input[aria-label='pin code 2 of 4']")
     FIELD_INPUT_CONFIRMATION_CODE_3 = (By.CSS_SELECTOR, "input[aria-label='pin code 3 of 4']")
     FIELD_INPUT_CONFIRMATION_CODE_4 = (By.CSS_SELECTOR, "input[aria-label='pin code 4 of 4']")
-    BUTTON_PROFILE = (By.CSS_SELECTOR, "div.items-center a[href='/profile']")
+    BUTTON_PROFILE = (By.CSS_SELECTOR, "div.whitespace-nowrap a[href='/profile']")
+    ELEMENT_HIDING_BUTTON_LOGIN = (By.CSS_SELECTOR, "div#preloader")
+    BUTTON_ACCEPT_PERS_DATA = (By.CSS_SELECTOR, "div.mb-2 button svg")
+    ELEMENT_HEAD_MAIN_PAGE = (By.CSS_SELECTOR, "div.p-1")
+    ELEMENT_HEAD_PROFILE_PAGE = (By.CSS_SELECTOR, "div.pb-2")
+    ELEMENT_HIDING_BUTTON_PROFILE = (By.CSS_SELECTOR, "div.rounded-hm-block")
+

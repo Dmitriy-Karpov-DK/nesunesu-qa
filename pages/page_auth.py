@@ -34,7 +34,3 @@ class AuthPage(MainPage):
     @allure.step('Вводим 4 цифру кода')
     def set_confirmation_code4(self, code):
         self.send_keys_method(LocatorMainPages.FIELD_INPUT_CONFIRMATION_CODE_4, code)
-
-    @allure.step('Клик по кнопке Профиль')
-    def click_on_profile(self):
-        self.click_method(LocatorMainPages.BUTTON_PROFILE)
